@@ -44,8 +44,8 @@ const typeColor = (typing) => {
 export default function ShowCard({ name, type1, type2 }) {
   return (
     <div className="flex flex-row gap-4 font-bold">
-      <div className="bg-gray-500 group hover:shadow-lg hover:shadow-white bg-opacity-15 h-60 w-48 rounded-2xl p-2 justify-center flex flex-col items-center transition-all duration-150 gap-2">
-        <div className="w-full h-36 items-center flex justify-center">
+      <div className="bg-black group hover:shadow-lg hover:shadow-blue-500 bg-opacity-15 h-52 w-48 rounded-2xl p-2 justify-center flex flex-col items-center transition-all duration-150 gap-2">
+        <div className="w-full h-28 items-end flex justify-center">
           <img
             src={`https://projectpokemon.org/images/normal-sprite/${name.toLowerCase()}.gif`}
             className="w-max h-max bg-transparent rounded-xl"

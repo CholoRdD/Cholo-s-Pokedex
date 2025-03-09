@@ -4,7 +4,10 @@ import PokemonList from "./Components/PokemonList";
 
 function App() {
   return (
-    <div className="flex flex-wrap items-center h-[100vh] inset-0 justify-center gap-10 p-10 bg-[rgb(255,28,28)]">
+    <div className="flex flex-col items-center h-[100vh] justify-center gap-2 p-8 bg-[rgb(255,28,28)]">
+      <p className="text-3xl text-white font-bold">
+        THIS PROJECT IS STILL A WORK IN PROGRESS
+      </p>
       <div className="bg-white w-full h-full overflow-y-auto flex flex-wrap justify-center items-center gap-4 rounded-2xl no-scrollbar p-4">
         {PokemonList.map((pokemon) => (
           <ShowCard
